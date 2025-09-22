@@ -1,11 +1,12 @@
 fastapi
-python-multipart
 uvicorn
+python-multipart
 psycopg2-binary
 sqlalchemy
 pydantic
 authlib
-python-jose
+python-jose[cryptography]
 bcrypt==4.0.1
 passlib[bcrypt]
+
 
